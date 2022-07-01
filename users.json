@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "fname": "aaa",
+      "lname": "aaa",
+      "username": "aaa@a.com",
+      "password": "aaa",
+      "password1": "aaa",
+      "location": "aaa",
+      "id": "SWEDe36"
+    },
+    {
+      "fname": "aaa",
+      "lname": "aaa",
+      "username": "value@value.com",
+      "password": "value",
+      "password1": "value",
+      "location": "asdasd",
+      "id": "uhcdBem"
+    },
+    {
+      "fname": "aaa",
+      "lname": "aaa",
+      "username": "admin@admin.com",
+      "password": "admin",
+      "password1": "admin",
+      "location": "Mumbai",
+      "id": "YBIRPb3"
+    },
+    {
+      "fname": "rhn",
+      "lname": "ran",
+      "username": "rhn@rhn.com",
+      "password": "rhn",
+      "password1": "rhn",
+      "location": "Mumbai",
+      "id": "jI1AWH2"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 180px;
+    z-index: 1;
+    margin-top: 20;
+   position: absolute;
+    background-color: #fdf5e0;
+    /* (255, 249, 227) */
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+   
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #ff4949;
+  }
+  
+  /* Main content */
+  .main {
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    margin-left: 300px;
+    font-size: 20px; /* Increased text to enable scrolling */
+    /* margin-left: 180px; Same as the width of the sidenav */
+     padding: 0px 20px;
+    background-color: rgb(255, 255, 255); 
+    float:left;
+    
+ 
+
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: #ffbc2c;;
+    color: white;
+  }
+  #HH{
+    font-size: 40px ;
+  }
+  
+  /* Some media queries for responsiveness */
+  /* @media screen and (max-height: 650px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .main {width:100% ;height:500%}
+  } */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .main {
+     margin-left: 0px;
+     font-size: 15px ;
+    }
+    #HH{
+      font-size: 20px ;
+    }
+  }

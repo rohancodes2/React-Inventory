@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "3d1bf15-5078-e0e3-216c-e6e62cd5ef07",
+      "productName": "Lenovo ideapad",
+      "model": "HJJGHSRE",
+      "manufacturer": "Lenovo",
+      "productDescription": "Laptop",
+      "price": 29000,
+      "quantity": 7,
+      "author": "Lenovo-support",
+      "created": "Thu Oct 29 2020 18:03:07 GMT+0530 (India Standard Time)",
+      "updated": "Thu Oct 29 2020 18:03:07 GMT+0530 (India Standard Time)",
+      "hits": 13
+    },
+    {
+      "id": "7804263-6cb-640c-c67-d46b078786",
+      "productName": "Apple Iphone 6s",
+      "model": "ASCJSJS",
+      "manufacturer": "Apple",
+      "productDescription": "Smartphone",
+      "price": 59000,
+      "quantity": 10,
+      "author": "Apple-support",
+      "created": "Thu Oct 29 2020 18:04:33 GMT+0530 (India Standard Time)",
+      "updated": "Thu Oct 29 2020 18:04:33 GMT+0530 (India Standard Time)",
+      "hits": 12
+    },
+    {
+      "id": "7e427a6-6c3f-611e-b175-d68fccba83",
+      "productName": "Lenovo Shellpad",
+      "model": "HJSHJBEE",
+      "manufacturer": "Lenovo",
+      "productDescription": "Laptop",
+      "price": 54000,
+      "quantity": 232,
+      "author": "rhn",
+      "created": "Tue Nov 03 2020 17:08:19 GMT+0530 (India Standard Time)",
+      "updated": "Tue Nov 03 2020 17:08:19 GMT+0530 (India Standard Time)",
+      "hits": null
+    },
+    {
+      "id": "48fdcba-f6b5-4c84-12bf-3d84ac6f3ba5",
+      "productName": "Macbook pro",
+      "model": "ABHDEWSXZ",
+      "manufacturer": "Apple",
+      "productDescription": "Laptop",
+      "price": 79000,
+      "quantity": 109,
+      "author": "rhn",
+      "created": "Thu Nov 05 2020 13:39:03 GMT+0530 (India Standard Time)",
+      "updated": "Thu Nov 05 2020 13:39:03 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": "00802bb-2c00-e31-dda0-ef7d36e025d4",
+      "productName": "HP notebook",
+      "model": "REDSF34N",
+      "manufacturer": "HP",
+      "productDescription": "Laptop",
+      "price": 1111,
+      "quantity": 111,
+      "author": "qqq",
+      "created": "Fri Nov 06 2020 11:15:21 GMT+0530 (India Standard Time)",
+      "updated": "Fri Nov 06 2020 11:15:21 GMT+0530 (India Standard Time)"
+    }
+  ]
+}

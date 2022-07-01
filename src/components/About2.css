@@ -1,0 +1,25 @@
+:root{
+    --timeout:3500ms;
+}
+.hhhhh{
+    background-color: rgb(233, 214, 175);
+    color:rgb(0, 0, 0);
+    
+}
+
+
+
+.balloon-enter{
+opacity: 0;
+}
+.balloon-enter-active{
+opacity: 1;
+transition: opacity var(--timeout);
+}
+.balloon-exit{
+opacity: 1;
+}
+.balloon-exit-active{
+opacity:0;
+transition: opacity var(--timeout)
+}
