@@ -234,7 +234,7 @@ console.log(customised3)
       >
         <div
           className="mx-auto hhhhh p2 row justify-content-center'"
-          style={{ width: 500, height: 150,color:'black' }}
+          style={{ width: 700, height: 150,color:'black' }}
         >
           <ul>
             Brands
