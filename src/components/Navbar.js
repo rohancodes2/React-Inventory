@@ -26,7 +26,7 @@ useEffect(()=>{
  if (getUser()!=null){setUser(getUser())};
   props.initializeProduct(initialData)
  
-  axios.get('http://localhost:3000/products').then(function (response) {
+  axios.get('https://mockend.com/rohancodes2/helloworld/products').then(function (response) {
        // handle success
    props.initializeProduct(response.data);
      
