@@ -9,7 +9,7 @@ export const SignIn=(user,pass)=>
 }
 export const addProducts=(product)=>{
     console.log('in here')
-    axios.post('http://localhost:3000/products',product )
+    axios.post('https://mockend.com/rohancodes2/helloworld/products',product )
     .then(function (response) {
       console.log(response);
       alert("Added successfully")
@@ -27,7 +27,7 @@ export const addProducts=(product)=>{
 }
 export const updateProducts=(product)=>{
     console.log('in her',product.id)
-    axios.put(`http://localhost:3000/products/${product.id}`,product )
+    axios.put(`https://mockend.com/rohancodes2/helloworld/products/${product.id}`,product )
     .then(function (response) {
       console.log(response);
       alert("Updated successfully")
@@ -45,7 +45,7 @@ export const updateProducts=(product)=>{
 }
 export const updateRegistrations=(user)=>{
  
-  axios.put(`http://localhost:3002/users/${user.username}`,user )
+  axios.put(`https://mockend.com/rohancodes2/helloworld/users/${user.username}`,user )
   .then(function (response) {
     console.log(response);
     alert("Updated successfully")
@@ -100,7 +100,7 @@ return chartData;
 
 export const recordHit=(id,hit)=>{
     console.log('Hit recorded for',id)
-    axios.patch(`http://localhost:3000/products/${id}`,{"hits":hit} )
+    axios.patch(`https://mockend.com/rohancodes2/helloworld/products/${id}`,{"hits":hit} )
     .then(function (response) {
       console.log(response);
       //alert("Updated successfully")
