@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import About from "./About";
 import Signout from "./Signout";
 import Products from "./Products";
-import { Route, BrowserRouter as Router,Navigate, NavLink, Link } from "react-router-dom";
+import { Route, BrowserRouter as Router,Redirect, NavLink, Link } from "react-router-dom";
 import { MainItems,SubItems1,SubItems2,SignStatus } from "../data/NavbarItems";
 import EditProfile from "./EditProfile";
 import { initializeProduct } from "../Redux/Actions/ActionCreators";
